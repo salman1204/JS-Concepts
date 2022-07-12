@@ -1,0 +1,23 @@
+By default, JS is a synchronous programming language. JS executes code Line by Line. It goes to the next Line after executing the previous one. So it blocks the next line from executing until the current line finishes executing. Its called Javascript synchronous blocking behaviour. 
+
+But sometimes it costs a lot in performance. most of the time, when we need to fetch some data from backend server, it takes some times. In this case, JS block the next line execution for fetching data from the backend.
+
+In this situation we need asynchronous programming. It doesn't block the execution for the next line while fetching the data. 
+
+setTimeout(Js default function),axios(third party) etc are asynchronous function. 
+
+We can also use callback functions for asynchronous programming.
+
+But using callback can cause callback hell. so we can use Promise.
+
+Promises take two function as parameter. they are -- resoleve and reject. 
+
+Using async/await is the better approch. 
+
+asynchronous function always return Promises. 
+
+
+
+
+
+
